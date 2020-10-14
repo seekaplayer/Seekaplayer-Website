@@ -1,10 +1,12 @@
+// React
 import React from "react";
+// Logo
 import logo from "../../Images/logo.png";
 
 const Logo = () => {
   return (
     <>
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Seekaplayer Logo. " />
     </>
   );
 };

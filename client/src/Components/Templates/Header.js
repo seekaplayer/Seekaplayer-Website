@@ -1,10 +1,14 @@
+// React
 import React from "react";
+// Navigation Component
 import Navigation from "../Navigation/Navigation";
 
 const Header = () => {
   return (
     <>
-      <Navigation />
+      <header>
+        <Navigation />
+      </header>
     </>
   );
 };

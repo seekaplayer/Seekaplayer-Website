@@ -1,9 +1,11 @@
+// React
 import React from "react";
 import Logo from "../Templates/Logo";
+// Bootstrap
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// Custom CSS
 import "./Navigation.css";
 const Navigation = () => {
   return (
@@ -17,11 +19,11 @@ const Navigation = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#portfolio">About</Nav.Link>
-              <Nav.Link href="#portfolio">Services</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#services">Services</Nav.Link>
               <Nav.Link href="#portfolio">Portfolio</Nav.Link>
               <Nav.Link href="#blog">Blog</Nav.Link>
-              <Nav.Link href="#blog">Twitch</Nav.Link>
+              <Nav.Link href="https://twitch.tv/seekaplayer">Twitch</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
