@@ -1,13 +1,15 @@
+// React
 import React from "react";
+// React-Bootstrap
 import Container from "react-bootstrap/Container";
 
 const Footer = () => {
   return (
     <footer>
-      <Container>
-        <span className="ml-auto">
+      <Container className="mt-5 text-center">
+        <small>
           &copy; {new Date().getFullYear()} Seekaplayer, All Rights Reserved.
-        </span>
+        </small>
       </Container>
     </footer>
   );

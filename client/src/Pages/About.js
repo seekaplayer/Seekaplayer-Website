@@ -1,10 +1,15 @@
+// React
 import React from "react";
+// React-Bootstrap
+import Container from "react-bootstrap/Container";
 
 const About = () => {
   return (
-    <>
-      <h1>About</h1>
-    </>
+    <Container>
+      <header className="page-heading">
+        <h1>About</h1>
+      </header>
+    </Container>
   );
 };
 

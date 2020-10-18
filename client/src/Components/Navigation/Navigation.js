@@ -23,7 +23,9 @@ const Navigation = () => {
               <Nav.Link href="services">Services</Nav.Link>
               <Nav.Link href="portfolio">Portfolio</Nav.Link>
               <Nav.Link href="blog">Blog</Nav.Link>
-              <Nav.Link href="https://twitch.tv/seekaplayer">Twitch</Nav.Link>
+              <Nav.Link href="https://twitch.tv/seekaplayer" target="_blank">
+                Twitch
+              </Nav.Link>
               <Nav.Link href="contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>

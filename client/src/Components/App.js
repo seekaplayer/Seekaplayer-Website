@@ -10,9 +10,12 @@ import Services from "../Pages/Services";
 import Portfolio from "../Pages/Portfolio";
 import Blog from "../Pages/Blog";
 import Contact from "../Pages/Contact";
+// Page Not Found
 import PageNotFound from "../Pages/404";
 // React Router
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// CSS
+import "./App.css";
 const App = () => {
   return (
     <>

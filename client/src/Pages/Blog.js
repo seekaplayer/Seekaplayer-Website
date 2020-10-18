@@ -1,10 +1,15 @@
+// React
 import React from "react";
+// React-Bootstrap
+import Container from "react-bootstrap/Container";
 
 const Blog = () => {
   return (
-    <>
-      <h1>Blog</h1>
-    </>
+    <Container>
+      <header className="page-heading">
+        <h1>Blog</h1>
+      </header>
+    </Container>
   );
 };
 
