@@ -1,12 +1,10 @@
 // React
 import React from "react";
-import Logo from "../Templates/Logo";
+import Logo from "./Templates/Logo";
 // Bootstrap
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-// Custom CSS
-import "./Navigation.css";
 const Navigation = () => {
   return (
     <>

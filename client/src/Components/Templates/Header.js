@@ -1,7 +1,7 @@
 // React
 import React from "react";
 // Navigation Component
-import Navigation from "../Navigation/Navigation";
+import Navigation from "../Navigation";
 
 const Header = () => {
   return (

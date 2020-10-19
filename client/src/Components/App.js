@@ -20,7 +20,6 @@ const App = () => {
   return (
     <>
       <Header />
-
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -32,7 +31,6 @@ const App = () => {
           <Route path="*" component={PageNotFound} />
         </Switch>
       </Router>
-
       <Footer />
     </>
   );

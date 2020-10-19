@@ -1,16 +1,27 @@
 // React
 import React from "react";
 // Components
-import ContactForm from "../Components/Form/ContactForm";
+import ContactForm from "../Components/ContactForm";
 // React Bootstrap
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 const Contact = () => {
   return (
     <Container>
-      <header className="page-heading">
-        <h1>Contact</h1>
-      </header>
-      <ContactForm />
+      <Row>
+        <Col>
+          <header className="page-heading">
+            <h1>Contact</h1>
+          </header>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} md={8} lg={10}>
+          <ContactForm />
+        </Col>
+        <Col>Testing</Col>
+      </Row>
     </Container>
   );
 };
