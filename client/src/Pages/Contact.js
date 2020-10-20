@@ -2,6 +2,7 @@
 import React from "react";
 // Components
 import ContactForm from "../Components/ContactForm";
+import Avatar from "../Components/Avatar";
 // React Bootstrap
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -20,7 +21,9 @@ const Contact = () => {
         <Col xs={12} md={8} lg={10}>
           <ContactForm />
         </Col>
-        <Col>Testing</Col>
+        <Col>
+          <Avatar className="" />
+        </Col>
       </Row>
     </Container>
   );

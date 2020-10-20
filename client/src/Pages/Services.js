@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <Container>
       <header className="page-heading">
-        <h1>Portfolio</h1>
+        <h1>Services</h1>
       </header>
     </Container>
   );
