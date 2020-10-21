@@ -18,11 +18,15 @@ const Contact = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={8} lg={10}>
+        <Col xs={12} lg={9}>
           <ContactForm />
         </Col>
-        <Col>
-          <Avatar className="" />
+        <Col xs={12} lg={3}>
+          <div className="avatar">
+            <Avatar />
+          </div>
+          <h2 className="text-center mt-4 xs-mt-5">Contact Me</h2>
+          <hr />
         </Col>
       </Row>
     </Container>

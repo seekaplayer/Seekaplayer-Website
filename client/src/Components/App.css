@@ -38,6 +38,7 @@
     color: #12a8e0;
   }
 }
+/* Buttons */
 .brand-btn {
   background: #12a8e0;
   border: none;
@@ -46,4 +47,9 @@
 }
 .brand-btn:hover {
   background: #109fd3;
+}
+/* Images */
+.avatar {
+  max-width: 200px;
+  margin: 0 auto;
 }
